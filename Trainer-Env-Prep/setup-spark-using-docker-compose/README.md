@@ -12,8 +12,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 ```
 
 ```
-git clone https://github.com/atingupta2005/pyspark-sep-22.git
-cd pyspark-sep-22/Trainer-Env-Prep/setup-spark-using-docker-compose
+git clone <current-repo-url>
+cd <current-repo-folder>
+cd Trainer-Env-Prep/setup-spark-using-docker-compose
 ```
 
 ```
