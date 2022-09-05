@@ -1,0 +1,12 @@
+#!/bin/sh
+branch=$(git rev-parse --symbolic --abbrev-ref HEAD)
+echo Update pushed to branch $branch
+if [ ${branch} = "master" ] ; then
+rm .gitignore
+cp .gitignore-github .gitignore
+fi
+
+if [ ${branch} = "am1" ] ; then
+rm .gitignore
+cp .gitignore-gitlab .gitignore
+fi
