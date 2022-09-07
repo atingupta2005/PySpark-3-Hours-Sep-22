@@ -1,7 +1,5 @@
 *.ppt*
 **/*.ppt*
-Trainer-Env-Prep
-Trainer-Env-Prep/*
 **/*Finance*
 **/*.pyc
 **/*.pptx
